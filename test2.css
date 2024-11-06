@@ -1,0 +1,23 @@
+/* Button group for aligning previous and next buttons */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 430px;
+    margin-top: 25px;
+}
+
+.previous-button, .next-button {
+    border-radius: 12px;
+    background-color: #1828be;
+    color: #fff;
+    padding: 17px 22px;
+    border: none;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.previous-button:hover, .next-button:hover {
+    background-color: #0e1f7d;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exit Check-in</title>
+    <link rel="stylesheet" href="test1.css">
+    <script defer src="script.js"></script> <!-- External JS linked -->
+</head>
+<body>
+    <section class="exit-check-in-container">
+        <header class="header">
+            <button class="exit-button" aria-label="Exit check-in">Exit check-in</button>
+            <img src="exit-icon.png" alt="Exit icon" class="exit-icon" aria-hidden="true">
+        </header>
+
+        <main class="main-content">
+            <h1 class="question-title">Question 1 of 10</h1>
+            <p class="question-subtitle">In the past 4 weeks...</p>
+            <h2 class="question-text">How often did you feel tired out for no reason?</h2>
+
+            <!-- Form Section with Radio Buttons -->
+            <form class="answer-form" id="form1">
+                <fieldset>
+                    <legend class="visually-hidden">Frequency options</legend>
+
+                    <label class="answer-option">
+                        <input type="radio" name="frequency" value="none" class="visually-hidden" required>
+                        <span class="custom-radio"></span>
+                        <span class="option-text">None of the time</span>
+                    </label>
+                    <label class="answer-option">
+                        <input type="radio" name="frequency" value="little" class="visually-hidden">
+                        <span class="custom-radio"></span>
+                        <span class="option-text">A little of the time</span>
+                    </label>
+                    <label class="answer-option">
+                        <input type="radio" name="frequency" value="some" class="visually-hidden">
+                        <span class="custom-radio"></span>
+                        <span class="option-text">Some of the time</span>
+                    </label>
+                    <label class="answer-option">
+                        <input type="radio" name="frequency" value="most" class="visually-hidden">
+                        <span class="custom-radio"></span>
+                        <span class="option-text">Most of the time</span>
+                    </label>
+                    <label class="answer-option">
+                        <input type="radio" name="frequency" value="all" class="visually-hidden">
+                        <span class="custom-radio"></span>
+                        <span class="option-text">All of the time</span>
+                    </label>
+                </fieldset>
+
+                <a href="test2.html">
+                    <button type="submit" class="next-button">Next</button>
+                </a>
+            </form>
+        </main>
+
+        <footer class="footer">
+            <p class="footer-text">Ut pariatu</p>
+        </footer>
+    </section>
+</body>
+</html>

@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, Arial, sans-serif;
+}
+
+.mental-health-check-in {
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(18, 15, 40, 0.12);
+    color: #353535;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 52px 80px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+
+.exit-button {
+    align-items: center;
+    background: none;
+    border: none;
+    color: #2f2d68;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    gap: 28px;
+    padding: 0;
+}
+
+.exit-icon {
+    height: 16px;
+    width: 16px;
+}
+
+.welcome-message {
+    color: #2e2e2e;
+    font-size: 16px;
+    margin: 0 0 40px;
+}
+
+.section-title {
+    color: #1b1959;
+    font-family: Archivo, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 2;
+    margin: 0 0 20px;
+}
+
+.instructions,
+.disclaimer {
+    line-height: 24px;
+    margin: 0 auto 28px;
+    max-width: 674px;
+}
+
+.help-title {
+    margin: 26px 0 10px;
+}
+
+.help-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.help-item {
+    margin: 10px 0;
+}
+
+.start-button {
+    background-color: #1828be;
+    border: none;
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+    padding: 18px 31px;
+    transition: background-color 0.3s ease;
+}
+
+.start-button:hover,
+.start-button:focus {
+    background-color: #131e8f;
+}
+
+.start-button:focus {
+    outline: 2px solid #131e8f;
+    outline-offset: 2px;
+}
+
+@media (max-width: 991px) {
+    .mental-health-check-in {
+        padding: 20px;
+    }
+
+    .welcome-message {
+        margin-top: 40px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .start-button {
+        padding: 15px 20px;
+    }
+}

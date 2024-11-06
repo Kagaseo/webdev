@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sign-up-form.css">
+</head>
+<body>
+    <section class="sign-up-form">
+        <div class="form-container">
+            <header class="navbar">
+                <div class="logo-container">
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/388bbe7e9c57a2ab101a99659aa635725532dc36fcdb2980d58fed9c1f0e2720?placeholderIfAbsent=true&apiKey=fe7a354999e6463997dfad9f454a1569" alt="Serenity Logo" class="logo-image" />
+                    <span class="company-name">Serenity</span>
+                </div>
+            </header>
+            <main class="main-content">
+                <div class="welcome-section">
+                    <h1 class="welcome-title">Create your account</h1>
+                    <p class="welcome-message">Join us today by filling in your details below.</p>
+                </div>
+                <form class="signup-form">
+                    <div class="form-group">
+                        <label for="first-name" class="form-label">First Name</label>
+                        <input type="text" id="first-name" class="form-input" placeholder="Sujan" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name" class="form-label">Last Name</label>
+                        <input type="text" id="last-name" class="form-input" placeholder="Shrestha" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" id="email" class="form-input" placeholder="name@company.com" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="phone-number" class="form-label">Phone Number</label>
+                        <input type="tel" id="phone-number" class="form-input" placeholder="+977 123 456 7890" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="gender" class="form-label">Gender</label>
+                        <select id="gender" class="form-input" required>
+                            <option value="" disabled selected>Select your gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="address" class="form-label">Address</label>
+                        <input type="text" id="address" class="form-input" placeholder="123 Main St" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" id="password" class="form-input" placeholder="*********" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password" class="form-label">Confirm Password</label>
+                        <input type="password" id="confirm-password" class="form-input" placeholder="*********" required />
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">Sign up</button>
+                    </div>
+                </form>
+                <p class="signup-prompt">
+                    Already have an account? <a href="sign-in-form.html" class="signup-link">Log in here</a>
+                </p>
+            </main>
+            <footer class="footer">
+                <p>&copy; 2024 Serenity</p>
+            </footer>
+        </div>
+        <div class="image-container">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/401107531252845d841adf0142ab8922931a880c0cda6103bb46653ec8741b69?placeholderIfAbsent=true&apiKey=fe7a354999e6463997dfad9f454a1569" alt="Decorative image" class="decorative-image" />
+        </div>
+    </section>
+</body>
+</html>
